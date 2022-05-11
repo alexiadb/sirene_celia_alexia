@@ -33,7 +33,7 @@ from sqlalchemy import inspect
 
 
 #Pour load le yaml fichiers avec paramètres : !!! Attention changer le chemin sur votre machine !!!
-with open(r'config.yml','r') as f:
+with open(r'/config.yml','r') as f:
     conf= yaml.safe_load(f)
 my = conf['PG']
 
