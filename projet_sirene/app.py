@@ -8,7 +8,7 @@ Created on Tue May 10 17:23:45 2022
 
 import streamlit as st
 from multiapp import MultiApp
-from apps import app1, app2, app4 # import your app modules here
+import app1, app2, app4 # import your app modules here
 #from streamlit_option_menu import option_menu
 
 
