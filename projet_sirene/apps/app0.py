@@ -33,7 +33,7 @@ from sqlalchemy import inspect
 
 
 #Pour load le yaml fichiers avec paramètres : !!! Attention changer le chemin sur votre machine !!!
-with open(r'config.yml','r') as f:
+with open(r'alexiadb/sirene_celia_alexia/main/projet_sirene/.gitignore/.streamlit/config.yml','r') as f:
     conf= yaml.safe_load(f)
 my = conf['PG']
 
